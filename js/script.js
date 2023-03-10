@@ -1,19 +1,20 @@
-// Copyright (c) 2022 Ms Raffin All rights reserved
+// Copyright (c) 2023 Savyon All rights reserved
 //
 // Created by: Ms Raffin
-// Created on: Mar 2022
+// Created on: Mar 2023
 // This file contains the JS functions for index.html
-function calperm() {
-  let fdigit = document.getElementById("1digit").value;
-  let sdigit = document.getElementById("2digit").value;
+function calperm() {calperm
+  let fdigit = document.getElementById("2digit").value;
   document.getElementById('add-math').innerHTML = 'Perimeter: 2(5+10) = ' + (30);
-}
+}calperm
 
-function area() {
-  document.getElementById('area').innerHTML = 'Area: 5 x 10 = ' + (50);
-}a
+
+function area() {area
+ let fdigit = document.getElementById('1digit').value;
+   document.getElementById('add-math').innerHTML = 'Area: 5 x 10 = ' + (50);
+}area
 function doMathClicked () {
-  // this function does basic math
+  // this function calculates value
   calperm()
   area()
 
